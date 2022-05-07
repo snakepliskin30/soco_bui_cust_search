@@ -1,0 +1,20 @@
+.cancel {
+  background-color: #fff;
+  width: auto;
+  color: #007dba;
+  border: 1px solid #e0e0e0;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.cancel:hover {
+  transform: translateY(-1px);
+}
+
+.cancel:active {
+  transform: translateY(0);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}

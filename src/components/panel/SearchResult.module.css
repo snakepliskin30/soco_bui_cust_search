@@ -1,0 +1,27 @@
+.main {
+  padding: 20px;
+  width: 100%;
+}
+
+tr[data-name] {
+  background-color: rgba(180, 180, 180, 0.6) !important;
+  --bs-table-striped-bg: rgba(0, 0, 0, 0) !important;
+  font-weight: bold;
+}
+
+tr[data-name]:hover {
+  background-color: rgba(180, 180, 180, 0.9) !important;
+  cursor: pointer;
+}
+
+.result_table_header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  color: #4d4d4f;
+  z-index: 1;
+}
+
+.dtrg-group.dtrg-start {
+  background-color: #00bcf1 !important;
+}

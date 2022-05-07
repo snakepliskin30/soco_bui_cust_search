@@ -1,0 +1,20 @@
+.submit {
+  background-color: #da3142;
+  width: auto;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.submit:hover {
+  transform: translateY(-1px);
+}
+
+.submit:active {
+  transform: translateY(0);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}

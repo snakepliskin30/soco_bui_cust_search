@@ -1,0 +1,29 @@
+.main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+}
+
+.mainForm {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+  gap: 20px;
+}
+
+.vertbar {
+  border-left: 1px solid #ddd;
+  height: auto;
+}
+
+.custinfoform,
+.premiseinfoform {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.premiseField {
+  grid-column: 1 / 4;
+}

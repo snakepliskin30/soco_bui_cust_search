@@ -10,6 +10,7 @@
 
 # production
 /build
+/cust_search_acn
 
 # misc
 .DS_Store
@@ -21,3 +22,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# cust_search
+*.zip
+
+package-lock.json

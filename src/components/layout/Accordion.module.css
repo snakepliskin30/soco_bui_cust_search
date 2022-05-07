@@ -1,0 +1,61 @@
+.accordion {
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.header {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  outline: none;
+  /* background-color: #007dba; */
+  background-color: #fff;
+  color: #4d4d4d;
+  position: relative;
+}
+
+.header::after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  font-weight: 700;
+  content: "\f077";
+  position: absolute;
+  color: #4d4d4d;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.pointdown::after {
+  transition: all 0.2s ease-in-out;
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center;
+}
+
+.content {
+  background-color: #fff;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+/* .content {
+  background-color: #fff;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.2s linear;
+  transition-delay: 0s;
+}
+
+.content.open {
+  max-height: 9999px;
+  transition: all 1.5s linear;
+  transition-delay: 0s;
+} */

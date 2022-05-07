@@ -1,0 +1,15 @@
+.field {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}

@@ -1,13 +1,22 @@
 {
-  "name": "soco_bui_cust_search",
+  "name": "cust_search_acn",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
+    "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "bootstrap": "^5.1.3",
+    "cleave.js": "^1.6.0",
+    "datatables.net": "^1.11.5",
+    "datatables.net-dt": "^1.11.5",
+    "datatables.net-rowgroup": "^1.1.4",
+    "datatables.net-rowgroup-dt": "^1.1.4",
+    "jquery": "^3.6.0",
+    "jquery-ui-dist": "^1.13.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -15,7 +24,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src/***/*.js",
+    "craco-build": "craco build",
+    "craco-start": "craco start"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.4.3",
+    "eslint": "^8.13.0",
+    "eslint-plugin-react": "^7.29.4"
   }
 }

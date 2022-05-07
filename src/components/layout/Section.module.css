@@ -1,0 +1,50 @@
+.section {
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #000;
+  position: relative;
+  border-bottom: 2px solid #aaa;
+  background-color: #fff;
+}
+
+.header::after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 0.8rem;
+  font-weight: 700;
+  content: "\f077";
+  position: absolute;
+  color: #000;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.pointdown::after {
+  transition: all 0.2s ease-in-out;
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center;
+}
+
+.content {
+  padding: 10px;
+}
+
+.noBtn {
+  pointer-events: none;
+}
+
+.noBtn::after {
+  content: "";
+}

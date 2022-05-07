@@ -1,0 +1,12 @@
+textarea {
+  padding: 5px;
+  width: 100%;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.label {
+  font-weight: bold;
+}

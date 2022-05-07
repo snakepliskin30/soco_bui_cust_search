@@ -1,0 +1,59 @@
+.open360,
+.startservice {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #1d82e3;
+  font-weight: bold;
+  height: 2rem;
+  user-select: none;
+}
+
+.open360:hover,
+.startservice:hover {
+  background-color: #ddd;
+}
+
+.open360 > * {
+  margin-left: 50px;
+}
+
+.open360::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  font-weight: 700;
+  content: "\f2c1";
+  position: absolute;
+  color: #4d4d4d;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.startservice > * {
+  margin-left: 50px;
+}
+
+.startservice::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  font-weight: 700;
+  content: "\f1e6";
+  position: absolute;
+  color: #4d4d4d;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.inactive {
+  pointer-events: none;
+  color: #bbb;
+}
+
+.inactive::before {
+  color: #bbb;
+}
